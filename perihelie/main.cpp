@@ -8,6 +8,6 @@
 
 int main(int argv, char const** argc)
 {
-	
+	std::cout<<"work in progress"<<std::endl;
     return 0;
 }
