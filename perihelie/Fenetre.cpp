@@ -14,5 +14,6 @@ void Fenetre::onRun(void){
 				fen->close();
 			}
 		}
+		sf::sleep(sf::milliseconds(loop_sleep));
 	}
 }
