@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03756D361D37FB23005E25D6 /* Fenetre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03756D351D37FB23005E25D6 /* Fenetre.cpp */; };
 		03A20E001D36BD4800390F78 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03A20DFF1D36BD4800390F78 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03756D321D37F9BF005E25D6 /* Fenetre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fenetre.h; sourceTree = "<group>"; };
+		03756D331D37F9FB005E25D6 /* Inclusion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inclusion.h; sourceTree = "<group>"; };
+		03756D341D37FAC1005E25D6 /* Constante.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constante.h; path = ../Constante.h; sourceTree = "<group>"; };
+		03756D351D37FB23005E25D6 /* Fenetre.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fenetre.cpp; sourceTree = "<group>"; };
 		03A20DF71D36BD4800390F78 /* perihelie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = perihelie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A20DFB1D36BD4800390F78 /* perihelie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "perihelie-Info.plist"; sourceTree = "<group>"; };
 		03A20DFF1D36BD4800390F78 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -47,7 +52,11 @@
 			isa = PBXGroup;
 			children = (
 				03A20DFF1D36BD4800390F78 /* main.cpp */,
+				03756D351D37FB23005E25D6 /* Fenetre.cpp */,
 				03A20DFA1D36BD4800390F78 /* Supporting Files */,
+				03756D321D37F9BF005E25D6 /* Fenetre.h */,
+				03756D331D37F9FB005E25D6 /* Inclusion.h */,
+				03756D341D37FAC1005E25D6 /* Constante.h */,
 			);
 			path = perihelie;
 			sourceTree = "<group>";
@@ -144,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A20E001D36BD4800390F78 /* main.cpp in Sources */,
+				03756D361D37FB23005E25D6 /* Fenetre.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +291,7 @@
 				03A20E0E1D36BD4800390F78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
