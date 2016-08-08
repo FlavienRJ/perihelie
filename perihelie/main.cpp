@@ -15,7 +15,7 @@ int main(int argv, char const** argc)
 	
 	Fenetre win;
 	win.onRun();
-	win.~Fenetre();
+	//win.~Fenetre();
 	
     return 0;
 }
