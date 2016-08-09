@@ -6,10 +6,10 @@ const sf::String	titre		= "Perihelie";
 const int			fps			= 60;
 const float			epsilon		= 1/(float)fps;
 const int			loop_sleep	= 1;
-const double		R0			= 1000.0;
-const double		T0			= 0.0;
-const double		TAU			= 0.000000001;
-const double		GM			= 100;
+const double		R0			= 45.0;
+const double		T0			= 1;
+const double		TAU			= 1;
+const double		GM			= 500;
 const double		deltaT		= 0.00000000000001;
 
 //R0 = 100

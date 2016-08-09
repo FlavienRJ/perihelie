@@ -10,7 +10,7 @@ class Fenetre : public sf::Window
 public:
 	Fenetre(void);
 	void onRun(void);
-	void calculatePositionRTheta(unsigned i);
+	void calculatePositionRTheta(unsigned i, double l);
 	void calculatePositionXY(unsigned i);
 	void calculateFormatedPosition(unsigned i);
 	
@@ -21,4 +21,6 @@ private:
 	T_val posRT_;
 	T_val posXY_;
 	std::vector<sf::Vector2u> posFormated_;
+	sf::CircleShape circle_;
+	
 };
